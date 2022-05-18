@@ -11,12 +11,11 @@ header{
     width: 1000px;
     height: 120px;
     background-color:yellow;
+    text-align: center;
 }
 
-#title {
-    position: absolute;
-    top: 20px;
-    left: 30px;
+header div{
+    margin: 0px auto;
 }
 
 main{
@@ -27,13 +26,34 @@ main{
     background-color: red;
 }
 
+main form {
+    position: absolute;
+    left: 200px;
+    width: 600px;
+    height: 500px;
+    background-color: blue;
+}
+
+main form ul{
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+}
 
 .datos{
-    width: 300px;
+    width: 400px;
     height: 30px;
     border-radius: 0.5rem;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.datos::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;/* Centrado vertical */
+  }
 
 .label{
     margin: auto;
