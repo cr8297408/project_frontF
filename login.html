@@ -7,19 +7,17 @@
     <title>Login</title>
 </head>
 <body>
-    <form action="" class="login">
-        <header>
-            <h1>Login</h1>
-        </header>
-        <main>
-            <label for="email">email</label><br>
-            <input type="email" id="email" placeholder="ingresa tu email"><br>
-            <label for="password">password</label><br>
-            <input type="text" id="password" placeholder="ingresa tu contraseña"><br>
-        </main>
-        <footer>
-            <button type="submit">Login</button>
-        </footer>
-    </form>
+    <header>
+        <h1>Login</h1>
+    </header>
+    <main>
+        <form action="" class="login">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" required placeholder="ingresa tu email"><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="password" placeholder="ingresa tu contraseña" required maxlength="16"><br><br>
+                <input type="submit" value="login"></input>
+        </form>
+    </main>
 </body>
 </html>
