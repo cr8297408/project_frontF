@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/login.css">
     <title>Login</title>
 </head>
 <body>
     <header>
-        <h1>Login</h1>
+        <div id="title">
+            <h1>Login</h1>
+        </div>
     </header>
     <main>
         <form action="" class="login">
-                <label for="email">Email</label><br>
-                <input type="email" id="email" required placeholder="ingresa tu email"><br>
-                <label for="password">Password</label><br>
-                <input type="text" id="password" placeholder="ingresa tu contraseña" required maxlength="16"><br><br>
-                <input type="submit" value="login"></input>
+            <ul>
+                <li>
+                    <div class="label">
+                        <label for="email">Email</label>
+                    </div>
+                </li>
+                <li>
+                    <input type="email" id="email" class="datos" required placeholder="ingresa tu email">
+                </li>
+                <li>
+                    <div class="label">
+                        <label for="password" class="datos">Password</label>
+                    </div>
+                </li>
+                <li>
+                    <input type="text" id="password" class="datos" placeholder="ingresa tu contraseña" required maxlength="16">
+                </li>
+                <li>
+                    <input type="submit" class="datos" value="login" id="login"></input>
+                </li>
+            </ul>
         </form>
     </main>
 </body>

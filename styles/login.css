@@ -1,0 +1,41 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 120px;
+    background-color:yellow;
+}
+
+#title {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+main{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: red;
+}
+
+
+.datos{
+    width: 300px;
+    height: 30px;
+    border-radius: 0.5rem;
+    margin: 20px;
+}
+
+.label{
+    margin: auto;
+    font-size: 1.7rem;
+}
