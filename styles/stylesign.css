@@ -1,0 +1,21 @@
+fieldset{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    
+}
+
+legend {
+    position: absolute;
+  top:0;
+  margin-left: 15%;
+}
+
+.cuerpo{
+    margin-bottom:10px ;
+   
+}
+#marco{
+    padding-top: 100px;
+    text-align: center;
+}
