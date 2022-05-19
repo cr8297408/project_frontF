@@ -10,8 +10,9 @@ header{
     margin: 20px auto;
     width: 1000px;
     height: 120px;
-    background-color:yellow;
+    /* background-color:yellow; */
     text-align: center;
+    line-height: 120px;
 }
 
 header div{
@@ -23,7 +24,7 @@ main{
     margin: auto;
     width: 1000px;
     height: 500px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 main form {
@@ -31,7 +32,7 @@ main form {
     left: 200px;
     width: 600px;
     height: 500px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 main form ul{
@@ -39,7 +40,12 @@ main form ul{
     left: 100px;
     width: 400px;
     height: 500px;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+main form ul li{
+    text-align: center;
+    
 }
 
 .datos{
