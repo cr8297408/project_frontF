@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
+    /* background-color: dimgrey; */
 }
 
 header{
@@ -59,6 +60,7 @@ main form ul li{
 .datos::-webkit-input-placeholder {
     text-align: center;
     line-height: 100px;/* Centrado vertical */
+    color: black;
   }
 
 .label{
