@@ -6,32 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="./styles/stylesign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Marck+Script&family=Roboto:wght@100&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9df4e4128f.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 
    <header>
-        <h1>Registro</h1>
+        <h1 id="titulo">Registro</h1> 
     </header>
 
     <main>
     
-    <form action="" method="post" id="form">
+        <form 
+        action="https://formspree.io/f/meqnvlgw" autocomplete="off"  method="POST"id="form">
         
         <label for="Nombre">Nombre y Apellido</label><br>
-        <input id="Nombre" type="text" required autofocus ><br>
-        <label for="Usuario">Nombre de usuario</label><br>
-        <input id="Usuario" type="text" required maxlength="16" placeholder="Maximo 16 caracteres"><br>
+        <input class="dato" id="Nombre" type="text" required autofocus ><br>
+        <label  for="Usuario">Nombre de usuario</label><br>
+        <input class="dato" id="Usuario" type="text" required maxlength="16" placeholder="Maximo 16 caracteres"><br>
         <label for="Contraseña">Contraseña</label><br>
-        <input type="password" name="Contraseña" id="Contraseña" required><br>
+        <input class="dato" type="password" name="Contraseña" id="Contraseña" required><br>
         <label for="ConfContraseña">Confirmar contraseña</label><br>
-        <input type="password" name="ConFContraseña" id="ConfContraseña" required><br>
-        <label for="email">Email</label><br>
-        <input type="email" name="email" id="email" placeholder="email@gmail.com" required><br><br>
-        <input type="submit" value="Registrarse">
-   
+        <input class="dato" type="password" name="ConFContraseña" id="ConfContraseña" required><br>
+        <label  for="email">Email</label><br>
+        <input class="dato" type="email" name="email" id="email" placeholder="email@gmail.com" required><br><br>
+        
+         
+        
+        <button  id="boton" class="dato" type="submit"><i  id="icono" clase="dato" class="fa-solid fa-code"></i>Registrarse</button>
     </form>
+    
+   
 </main>
+
 <script src="./js/redirect.js"></script>
 </body>
 </html>
+
